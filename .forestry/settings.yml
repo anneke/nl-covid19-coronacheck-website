@@ -9,39 +9,6 @@ sections:
   label: Announcements
   create: all
   match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: all
-- type: directory
-  path: _questions
-  label: Questions
-  create: all
-  match: "**/*"
-- type: directory
-  path: _questions-in-app
-  label: Questions in app
-  create: all
-  match: "**/*"
-- type: directory
-  path: _questions-scanner
-  label: Questions scanner
-  create: all
-  match: "**/*"
-- type: directory
-  path: _questions-scanner-in-app
-  label: Questions scanner in app
-  create: all
-  match: "**/*"
-- type: directory
-  path: _user-instructions
-  label: User instructions
-  create: all
-  match: "**/*"
-- type: directory
-  path: _scanner-instructions
-  label: Scanner instructions
-  create: all
-  match: "**/*"
 upload_dir: img/uploads
 public_path: img/uploads
 front_matter_path: ''
