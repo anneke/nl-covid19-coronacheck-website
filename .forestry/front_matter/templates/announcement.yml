@@ -1,0 +1,13 @@
+---
+label: Announcement
+hide_body: false
+fields:
+- type: text
+  name: lang
+  label: lang
+- type: text
+  name: title
+  label: title
+- type: text
+  name: style
+  label: style
