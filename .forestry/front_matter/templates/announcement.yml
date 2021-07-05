@@ -4,10 +4,12 @@ hide_body: false
 fields:
 - type: text
   name: lang
-  label: lang
+  label: Language
+  description: nl = Nederlands<br>en = Engels
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: style
-  label: style
+  label: Style
+  description: info = light blue background<br>error = light red background
