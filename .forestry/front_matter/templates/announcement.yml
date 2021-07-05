@@ -6,10 +6,19 @@ fields:
   name: lang
   label: Language
   description: nl = Nederlands<br>en = Engels
+  default: nl
+  config:
+    required: true
 - type: text
   name: title
   label: Title
+  config:
+    required: true
+  default: "''"
 - type: text
   name: style
   label: Style
   description: info = light blue background<br>error = light red background
+  config:
+    required: true
+  default: info
