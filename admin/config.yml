@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: anneke/nl-covid19-coronacheck-website
   branch: main
 
 publish_mode: editorial_workflow
