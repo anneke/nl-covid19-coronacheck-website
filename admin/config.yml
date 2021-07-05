@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+media_folder: "img/uploads"
+
+collections:
+  - name: "announcements" 
+    label: "Announcements" 
+    folder: "_announcements/" 
+    create: true 
+    slug: "01-announcement-{{ title }}.md" 
+    fields:
+      - {label: "Published", name: "published", widget: "boolean", default: "false"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Language", name: "lang", widget: "string"}
+      - {label: "Style", name: "style", widget: "string", default: "info"}
+      - {label: "Body", name: "body", widget: "markdown"}
